@@ -1,0 +1,10 @@
+GET /api/config/ollama/tags
+
+Returns a list of available Ollama models.
+
+Example response:
+[
+  "llama3",
+  "mistral",
+  "phi3"
+]

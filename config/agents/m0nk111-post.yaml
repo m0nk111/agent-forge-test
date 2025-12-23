@@ -1,0 +1,4 @@
+model_name: llama3
+model:
+  name: llama3
+max_concurrent_issues: 1
