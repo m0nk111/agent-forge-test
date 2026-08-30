@@ -1,0 +1,15 @@
+POST /api/config/ollama/model
+
+Updates the Ollama model for the bot.
+
+Headers:
+  X-Agent-Forge-Admin-Token: <secret_token>
+
+Body:
+  model_name: <model_name>
+
+Example response:
+{
+  "status": "success",
+  "message": "Model updated successfully. Please restart the service to apply changes."
+}

@@ -1,0 +1,3 @@
+polling:
+  interval: 30s
+  enabled: true
